@@ -1,0 +1,1 @@
+# android-resource-naming-convention
