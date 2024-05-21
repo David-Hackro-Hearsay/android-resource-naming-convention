@@ -3,30 +3,7 @@
 
 To maintain a clear, organized, and manageable project structure, follow these naming conventions for various types of resources in Android:
 
-## 1. Drawable Resources
-
-| Asset Type    | Prefix          | Example                       |
-|---------------|------------------|-------------------------------|
-| Action bar    | `ab_`            | `ab_stacked.9.png`            |
-| Button        | `btn_`           | `btn_send_pressed.9.png`      |
-| Dialog        | `dialog_`        | `dialog_top.9.png`            |
-| Divider       | `divider_`       | `divider_horizontal.9.png`    |
-| Icon          | `ic_`            | `ic_star.png`                 |
-| Menu          | `menu_`          | `menu_submenu_bg.9.png`       |
-| Notification  | `notification_`  | `notification_bg.9.png`       |
-| Tabs          | `tab_`           | `tab_pressed.9.png`           |
-
-## 2. Layout Resources
-
-| Resource Type         | Prefix            | Example                       |
-|-----------------------|-------------------|-------------------------------|
-| Activity Layouts      | `activity_`       | `activity_main.xml`           |
-| Fragment Layouts      | `fragment_`       | `fragment_home.xml`           |
-| List Item Layouts     | `item_`           | `item_product.xml`            |
-| Dialog Layouts        | `dialog_`         | `dialog_confirmation.xml`     |
-| Custom Views          | `view_`           | `view_header.xml`             |
-
-## 3. String Resources
+## 1. String Resources
 
 **Screen-Specific:**
 
@@ -48,6 +25,30 @@ To maintain a clear, organized, and manageable project structure, follow these n
 | button_ | Used for button text                        | `button_submit`               |
 | hint_   | Used for hints                              | `hint_username`               |
 | desc_   | Used for image descriptions                 | `desc_profile_picture`        |
+
+## 2. Layout Resources
+
+| Resource Type         | Prefix            | Example                       |
+|-----------------------|-------------------|-------------------------------|
+| Activity Layouts      | `activity_`       | `activity_main.xml`           |
+| Fragment Layouts      | `fragment_`       | `fragment_home.xml`           |
+| List Item Layouts     | `item_`           | `item_product.xml`            |
+| Dialog Layouts        | `dialog_`         | `dialog_confirmation.xml`     |
+| Custom Views          | `view_`           | `view_header.xml`             |
+
+
+## 3. Drawable Resources
+
+| Asset Type    | Prefix          | Example                       |
+|---------------|------------------|-------------------------------|
+| Action bar    | `ab_`            | `ab_stacked.9.png`            |
+| Button        | `btn_`           | `btn_send_pressed.9.png`      |
+| Dialog        | `dialog_`        | `dialog_top.9.png`            |
+| Divider       | `divider_`       | `divider_horizontal.9.png`    |
+| Icon          | `ic_`            | `ic_star.png`                 |
+| Menu          | `menu_`          | `menu_submenu_bg.9.png`       |
+| Notification  | `notification_`  | `notification_bg.9.png`       |
+| Tabs          | `tab_`           | `tab_pressed.9.png`           |
 
 ## 4. Color Resources
 
